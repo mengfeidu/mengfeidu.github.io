@@ -30,17 +30,25 @@ education:
 
 experience:
   - name: "BAAI RoboBrain Team"
+    logo: "/assets/images/badges/baai.png"
     position: "Team Member"
     date: "Jul. 2025 – Now"
+
   - name: "ByteDance Seed Team"
+    logo: "/assets/images/badges/bytedance.png"
     position: "Research Intern"
     date: "Jan. 2025 – Jun. 2025"
+
   - name: "Alibaba TongYi Lab"
+    logo: "/assets/images/badges/alibaba.png"
     position: "Research Intern"
     date: "Apr. 2024 – Dec. 2024"
+
   - name: "DISC Lab (Fudan University)"
+    logo: "/assets/images/badges/fudan_icon.png"
     position: "Team Member"
     date: "Jan. 2022 – Jun. 2025"
+
 
 awards:
   - name: "Excellent Graduate Award, Shanghai"
