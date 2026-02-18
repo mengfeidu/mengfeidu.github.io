@@ -20,11 +20,11 @@ portrait_url: /assets/images/photos/portrait.jpg
 
 education:
   - name: "Fudan University"
-    logo: /assets/images/badges/fudan.png
+    logo: /assets/images/badges/fudan_icon.png
     position: "MPhil in Statistics"
     date: "Jun. 2025"
   - name: "Fudan University"
-    logo: /assets/images/badges/fudan.png
+    logo: /assets/images/badges/fudan_icon.png
     position: "BSc in Data Science"
     date: "Jun. 2022"
 
