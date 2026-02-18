@@ -3,5 +3,51 @@ secondary_name: ""
 navbar_name: "Mengfei Du"
 
 positions:
-  - name: "RoboBrain Team Member"
   - name: "Fudan University"
+
+email: "mfdu22@m.fudan.edu.cn"
+
+cv_link: "/assets/pdf/mfdu-CV.pdf"
+
+gscholar: "https://scholar.google.com/citations?user=JONwde0AAAAJ"
+github: "mengfeidu"
+
+short_bio_text_justify: false
+short_bio: >-
+  I am a Ph.D. student in the Hong Kong University of Science and Technology (HKUST), jointly advised by Prof. Sirui Han and Prof. Yike Guo. Before joining UST, I received my B.S. and M.S. in the School of Data Science at Fudan University.
+
+portrait_url: /assets/images/photos/portrait.jpg
+
+education:
+  - name: "Fudan University"
+    logo: /assets/images/badges/fudan.png
+    position: "MPhil in Statistics"
+    date: "Jun. 2025"
+  - name: "Fudan University"
+    logo: /assets/images/badges/fudan.png
+    position: "BSc in Data Science"
+    date: "Jun. 2022"
+
+experience:
+  - name: "BAAI RoboBrain Team"
+    position: "Team Member"
+    date: "Jul. 2025 – Now"
+  - name: "ByteDance Seed Team"
+    position: "Research Intern"
+    date: "Jan. 2025 – Jun. 2025"
+  - name: "Alibaba TongYi Lab"
+    position: "Research Intern"
+    date: "Apr. 2024 – Dec. 2024"
+  - name: "DISC Lab (Fudan University)"
+    position: "Team Member"
+    date: "Jan. 2022 – Jun. 2025"
+
+awards:
+  - name: "Excellent Graduate Award, Shanghai"
+    date: "2025"
+  - name: "China National Scholarship"
+    date: "2024"
+  - name: "Excellent Graduate Award, Fudan University"
+    date: "2022"
+  - name: "Wangdao Scholar (Fudan University Undergraduate Academic Research Funding Program)"
+    date: "2022"
