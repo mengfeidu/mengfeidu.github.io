@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
+baseurl: "/homepage" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
@@ -33,6 +33,18 @@ plugins:
 #   - vendor/ruby/
 
 # timezone: Asia/Shanghai
+
+title: Mengfei Du
+name: Mengfei Du
+email: mfdu22@m.fudan.edu.cn
+description: >
+  Ph.D. student in Large Multimodal Model and Embodied AI
+
+affiliation:
+  - Fudan University
+
+github_username: https://github.com/mengfeidu
+google_scholar: https://scholar.google.com/citations?user=JONwde0AAAAJ
 
 collections:
   - publications
