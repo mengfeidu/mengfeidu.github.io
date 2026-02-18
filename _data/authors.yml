@@ -1,22 +1,55 @@
-"Your Name":
+"Mengfei Du":
   bold: true
 
-"Robert White":
-  url: https://www.google.com/?q=Robert+White
+"Zhongyu Wei":
+  url: "https://scholar.google.com/citations?user=AjLDxxgAAAAJ"
 
-"Charles Green (MIT)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+MIT
+"Shanghang Zhang":
+  url: "https://scholar.google.com/citations?user=voqw10cAAAAJ"
 
-"Charles Green (Stanford)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+Stanford
+"Yike Guo":
+  url: "https://scholar.google.com/citations?user=-0q6cIYAAAAJ"
 
-"Garrett Harris":
-  url: https://www.google.com/?q=Garrett+Harris
+"Binhao Wu": {}
+"Zejun Li": 
+  url: "https://scholar.google.com/citations?user=FYppLbUAAAAJ"
 
-"James Wang":
-  url: https://www.google.com/?q=James+Wang
+"Xuanjing Huang": 
+  url: "https://scholar.google.com/citations?user=RGsMgZA4H78C"
+  
+"Jiwen Zhang": 
+  url: "https://scholar.google.com/citations?user=wQCKDNQAAAAJ"
+  
+"Zhihao Fan": 
+  url: "https://scholar.google.com/citations?user=xfqnSacAAAAJ"
+  
+"Ye Wang": {}
+"Qingwen Liu": {}
+"Chengxing Zhou": {}
+"Jie Fu": {}
+"Jingjing Chen": {}
 
-"John Doe":
-  url: https://www.google.com/?q=John+Doe
+# 技术报告/大团队作者（先占位，显示名字即可）
+"BAAI RoboBrain Team": {}
+"Dong Guo": {}
+"Faming Wu": {}
+"Wenli Yang": {}
+"Wenzhi Wang": {}
+"Peng Wang": {}
+"Shuai Bai": {}
+"Sinan Tan": {}
+"Shijie Wang": {}
+"Jinze Bai": {}
+"Keqin Chen": {}
+"Xuejing Liu": {}
+"Jialin Wang": {}
+"Wenbin Ge": {}
+"Yang Fan": {}
+"Kai Dang": {}
+"Xuancheng Ren": {}
+"Rui Men": {}
+"Dayiheng Liu": {}
+"Chang Zhou": {}
+"Jingren Zhou": {}
+"Junyang Lin": {}
+"Wenqian Wang": {}
