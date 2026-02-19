@@ -19,5 +19,6 @@ links:
     url: "https://github.com/mengfeidu/EmbSpatial-Bench"
   dataset:
     url: "https://huggingface.co/datasets/Phineas476/EmbSpatial-Bench"
+semantic_scholar_id: be58f40bc78b10d09adaa92bfa48788662f276d3
 selected: true
 ---
