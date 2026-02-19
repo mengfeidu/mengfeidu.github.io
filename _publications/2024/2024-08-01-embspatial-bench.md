@@ -1,6 +1,6 @@
 ---
 title: "EmbSpatial-Bench: Benchmarking Spatial Understanding for Embodied Tasks with Large Vision-Language Models"
-date: 2024-08-01
+date: 2024-08-15
 authors:
   - "Mengfei Du*"
   - "Binhao Wu*"
@@ -11,8 +11,10 @@ pub: "ACL (Main)"
 pub_date: "2024"
 links:
   paper:
-    url: "https://aclanthology.org/2024.acl-short.33/"   # 你可以补上 ACL anthology 链接
+    url: "https://aclanthology.org/2024.acl-short.33/" 
   arxiv:
     url: "https://arxiv.org/abs/2406.05756"
+  github:
+    url: "https://github.com/mengfeidu/EmbSpatial-Bench"
 selected: true
 ---
