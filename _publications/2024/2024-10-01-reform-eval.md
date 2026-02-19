@@ -24,5 +24,6 @@ links:
     url: "https://arxiv.org/abs/2310.02569"
   github:
     url: "https://github.com/FudanDISC/ReForm-Eval"
+semantic_scholar_id: d813e7edec4836dbf9d35363a6ed02782df3d18c
 selected: false
 ---
