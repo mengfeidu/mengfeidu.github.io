@@ -40,3 +40,11 @@ $(function () {
         $grid.masonry('layout');
     });
 })
+
+function copyBib(id) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const text = el.innerText;
+  navigator.clipboard.writeText(text);
+}
+
