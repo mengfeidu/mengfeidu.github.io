@@ -2,12 +2,16 @@
 title: "Seed1.5-VL Technical Report"
 date: 2025-05-01
 authors:
-  - "BAAI RoboBrain Team"
+  - "ByteDance Seed Team"
 pub: "arXiv"
 pub_date: "2025"
 cover: /assets/images/covers/cover-seed1.5.png
 links:
   arxiv:
     url: "https://arxiv.org/abs/2505.07062"
-selected: false
+  github:
+    url: "https://github.com/ByteDance-Seed/Seed1.5-VL"
+  page:
+    url: "https://seed.bytedance.com/zh/tech/seed1_5_vl"
+selected: true
 ---
