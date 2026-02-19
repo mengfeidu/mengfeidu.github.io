@@ -9,7 +9,7 @@ authors:
   - "Zhongyu Wei#"
 pub: "ACL (Main)"
 pub_date: "2024"
-cover:          /assets/images/covers/cover-embSpatialBench.png
+cover: /assets/images/covers/cover-embSpatialBench.png
 links:
   paper:
     url: "https://aclanthology.org/2024.acl-short.33/" 
