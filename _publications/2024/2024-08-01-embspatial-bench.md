@@ -16,5 +16,7 @@ links:
     url: "https://arxiv.org/abs/2406.05756"
   github:
     url: "https://github.com/mengfeidu/EmbSpatial-Bench"
+  dataset:
+    url: "https://huggingface.co/datasets/Phineas476/EmbSpatial-Bench"
 selected: true
 ---
