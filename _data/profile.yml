@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Mengfei Du"
 
 positions:
-  - name: "3rd Master Student"
+  # - name: "3rd Master Student"
   - name: "Fudan University"
 
 email: "mfdu22@m.fudan.edu.cn"
