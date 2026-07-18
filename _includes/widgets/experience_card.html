@@ -18,6 +18,18 @@
                                             <div>{{ item.position }}</div>
                                             <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
                                         </div>
+                                        {% if item.advisors %}
+                                        <div class="small text-muted">
+                                            Advisor{% if item.advisors.size > 1 %}s{% endif %}:
+                                            {% for advisor in item.advisors %}
+                                                {% if advisor.url %}
+                                                <a href="{{ advisor.url }}" target="_blank" rel="noopener">{{ advisor.name }}</a>{% unless forloop.last %},{% endunless %}
+                                                {% else %}
+                                                {{ advisor.name }}{% unless forloop.last %},{% endunless %}
+                                                {% endif %}
+                                            {% endfor %}
+                                        </div>
+                                        {% endif %}
                                     </div>
                                 </li>
                                 {% endfor %}

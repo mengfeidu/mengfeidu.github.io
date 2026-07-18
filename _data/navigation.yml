@@ -7,9 +7,9 @@ pages:
 #   url: /index_layout2
 - name: Publications
   url: /publications
-- name: Blogs
-  url: /blogs
-- name: Photography
-  url: /photography
+# - name: Blogs
+#   url: /blogs
+# - name: Photography
+#   url: /photography
 # - name: Showcase
 #   url: /showcase

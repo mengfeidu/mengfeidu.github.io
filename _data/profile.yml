@@ -14,7 +14,12 @@ github: "mengfeidu"
 
 short_bio_text_justify: false
 short_bio: >-
-  Mengfei Du is currently a Ph.D. student in Individualized Interdisciplinary Program (AI) at HKUST, and a member of the RoboBrain Team. His research interests include Large Vision Language Models and Embodied AI.
+  Mengfei Du is currently a Ph.D. student in Individualized Interdisciplinary Program (AI) at HKUST,
+  advised by <a href="https://scholar.google.com/citations?user=ootCmkEAAAAJ" target="_blank" rel="noopener">Sirui Han</a>
+  and <a href="https://scholar.google.com/citations?user=-0q6cIYAAAAJ" target="_blank" rel="noopener">Yike Guo</a>.
+  He previously received his B.Sc. and M.Phil. degrees from Fudan University,
+  advised by <a href="https://scholar.google.com/citations?user=AjLDxxgAAAAJ" target="_blank" rel="noopener">Zhongyu Wei</a>.
+  His research interests include Large Vision Language Models and Embodied AI.
 
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -24,14 +29,25 @@ education:
     logo: /assets/images/badges/ust.png
     position: "PhD student in IIP (AI)"
     date: "Feb. 2026 – Now"
+    advisors:
+      - name: "Sirui Han"
+        url: "https://scholar.google.com/citations?user=ootCmkEAAAAJ"
+      - name: "Yike Guo"
+        url: "https://scholar.google.com/citations?user=-0q6cIYAAAAJ"
   - name: "Fudan University"
     logo: /assets/images/badges/fudan_icon.png
     position: "MPhil in Statistics"
     date: "Jun. 2025"
+    advisors:
+      - name: "Zhongyu Wei"
+        url: "https://scholar.google.com/citations?user=AjLDxxgAAAAJ"
   - name: "Fudan University"
     logo: /assets/images/badges/fudan_icon.png
     position: "BSc in Data Science"
     date: "Jun. 2022"
+    advisors:
+      - name: "Zhongyu Wei"
+        url: "https://scholar.google.com/citations?user=AjLDxxgAAAAJ"
 
 experience:
   - name: "RoboBrain Team"
