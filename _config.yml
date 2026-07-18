@@ -48,8 +48,10 @@ github_username: https://github.com/mengfeidu
 google_scholar: https://scholar.google.com/citations?user=JONwde0AAAAJ
 
 collections:
-  - publications
-  - news
-  - showcase
-  - blogs
-  - photographs
+  publications:
+  news:
+  showcase:
+  blogs:
+    output: true
+    permalink: /blogs/:name/
+  photographs:

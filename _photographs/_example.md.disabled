@@ -1,9 +1,15 @@
 ---
-title: "Example photo"
+# ============================================================
+# Photograph entry format (sample template)
+# 1. Put the image in:  assets/images/photography/your-image.jpg
+# 2. Copy this file to:  _photographs/YYYY-MM-DD-your-slug.md
+# 3. Update title / caption / image path / width
+# ============================================================
+title: "Your photo title"
 caption: "Location · Year"
-date: 2026-07-01 12:00:00 +0800
-image: /assets/images/photography/your-photo.jpg
-width: 4
+date: 2026-07-19 12:00:00 +0800
+image: /assets/images/photography/your-image.jpg
+width: 4   # Bootstrap column width: 3 / 4 / 6 / 12
 ---
 
-Optional short note about this photo. Rename to `.md` (remove `.disabled`) after adding the image.
+Optional short note about this photo.

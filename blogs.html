@@ -19,10 +19,8 @@ navbar_title: Blogs
                     <h5 class="mb-1">
                         {% if item.link %}
                         <a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>
-                        {% elsif item.url %}
-                        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
                         {% else %}
-                        {{ item.title }}
+                        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
                         {% endif %}
                     </h5>
                     {% if item.date %}
