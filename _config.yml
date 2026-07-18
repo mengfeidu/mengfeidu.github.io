@@ -41,6 +41,7 @@ description: >
   Ph.D. student in Large Multimodal Model and Embodied AI
 
 affiliation:
+  - The Hong Kong University of Science and Technology
   - Fudan University
 
 github_username: https://github.com/mengfeidu
@@ -50,3 +51,5 @@ collections:
   - publications
   - news
   - showcase
+  - blogs
+  - photographs

@@ -1,0 +1,48 @@
+---
+layout: default
+title: Blogs
+navbar_title: Blogs
+---
+
+{% assign blogs = site.blogs | sort: "date" | reverse %}
+
+<div class="row">
+    <div class="col-12 col-lg-10">
+        <h2 class="mb-3">Blogs</h2>
+        <p class="text-muted mb-4">Notes, thoughts, and occasional write-ups.</p>
+
+        {% if blogs.size > 0 %}
+        <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
+            {% for item in blogs %}
+            <div class="p-4 {% unless forloop.last %}border-bottom border-gray{% endunless %}">
+                <div class="d-flex align-items-baseline">
+                    <h5 class="mb-1">
+                        {% if item.link %}
+                        <a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>
+                        {% elsif item.url %}
+                        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                        {% else %}
+                        {{ item.title }}
+                        {% endif %}
+                    </h5>
+                    {% if item.date %}
+                    <div class="ml-auto text-muted small no-break"><em>{{ item.date | date: "%b %Y" }}</em></div>
+                    {% endif %}
+                </div>
+                {% if item.excerpt and item.excerpt != "" %}
+                <div class="text-muted small mt-2">{{ item.excerpt | strip_html | truncate: 180 }}</div>
+                {% elsif item.content and item.content != "" %}
+                <div class="text-muted small mt-2">{{ item.content | strip_html | truncate: 180 }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="bg-white shadow-sm rounded-xl p-5 text-center text-muted">
+            <i class="fas fa-pen-nib mb-3" style="font-size: 2rem; opacity: 0.45;"></i>
+            <p class="mb-1">Coming soon.</p>
+            <p class="small mb-0">Blog posts will appear here. Add markdown files under <code>_blogs/</code>.</p>
+        </div>
+        {% endif %}
+    </div>
+</div>

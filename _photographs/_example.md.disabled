@@ -1,0 +1,9 @@
+---
+title: "Example photo"
+caption: "Location · Year"
+date: 2026-07-01 12:00:00 +0800
+image: /assets/images/photography/your-photo.jpg
+width: 4
+---
+
+Optional short note about this photo. Rename to `.md` (remove `.disabled`) after adding the image.

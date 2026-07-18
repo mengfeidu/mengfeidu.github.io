@@ -1,0 +1,56 @@
+---
+layout: default
+title: Photography
+navbar_title: Photography
+container_class: container-xl
+---
+
+{% assign photos = site.photographs | sort: "date" | reverse %}
+
+<div class="row mb-3">
+    <div class="col-12">
+        <h2 class="mb-2">Photography</h2>
+        <p class="text-muted mb-0">A quiet corner for photographs and visual works.</p>
+    </div>
+</div>
+
+{% if photos.size > 0 %}
+<div class="row grid mb-4">
+    <div class="grid-sizer col-1"></div>
+    {% for item in photos %}
+    {% assign width = item.width | default: 4 %}
+    {% if width >= 6 -%}
+        {%- assign width_sm = 12 -%}
+        {%- assign width_xs = 12 -%}
+    {%- elsif width >= 2 -%}
+        {%- assign width_sm = 6 -%}
+        {%- assign width_xs = 6 -%}
+    {%- else -%}
+        {%- assign width_sm = width | times: 2 | at_most: 12 -%}
+        {%- assign width_xs = width | times: 2 | at_most: 12 -%}
+    {%- endif -%}
+    <div class="p-2 grid-item col-md-{{ width | at_most: 12 }} col-sm-{{ width_sm }} col-{{ width_xs }}">
+        <div class="card border-0 shadow-sm bg-white overflow-hidden">
+            {% if item.image %}
+            <img src="{{ item.image | relative_url }}" class="card-img-top" alt="{{ item.title | default: 'Photograph' }}" loading="lazy">
+            {% endif %}
+            {% if item.title or item.caption or item.content %}
+            <div class="card-body p-3">
+                {% if item.title %}<div class="font-weight-bold">{{ item.title }}</div>{% endif %}
+                {% if item.caption %}<div class="small text-muted">{{ item.caption }}</div>{% endif %}
+                {% if item.content and item.content != "" %}
+                <div class="small text-muted mt-1">{{ item.content | markdownify }}</div>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="bg-white shadow-sm rounded-xl p-5 text-center text-muted">
+    <i class="fas fa-camera mb-3" style="font-size: 2rem; opacity: 0.45;"></i>
+    <p class="mb-1">Gallery space reserved.</p>
+    <p class="small mb-0">Photographs will appear here. Add markdown files under <code>_photographs/</code>, or drop images into <code>assets/images/photography/</code>.</p>
+</div>
+{% endif %}
